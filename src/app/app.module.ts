@@ -10,6 +10,7 @@ import { AboutComponent } from './components/about/about.component';
 import { CarteComponent } from './components/carte/carte.component';
 import { AccueilComponent } from './components/accueil/accueil.component';
 import { RestauComponent } from './components/restau/restau.component';
+import { HitDuMoisComponent } from './components/hit-du-mois/hit-du-mois.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { RestauComponent } from './components/restau/restau.component';
     CarteComponent,
     AccueilComponent,
     RestauComponent,
+    HitDuMoisComponent,
   ],
   imports: [
     BrowserModule,
