@@ -9,6 +9,7 @@ import { MapComponent } from './components/map/map.component';
 import { AboutComponent } from './components/about/about.component';
 import { CarteComponent } from './components/carte/carte.component';
 import { AccueilComponent } from './components/accueil/accueil.component';
+import { RestauComponent } from './components/restau/restau.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AccueilComponent } from './components/accueil/accueil.component';
     AboutComponent,
     CarteComponent,
     AccueilComponent,
+    RestauComponent,
   ],
   imports: [
     BrowserModule,
