@@ -10,6 +10,10 @@ module.exports = {
         'smash-red': '#d34e36',
         'smash-yellow': '#f7b344',
       },
+      screens: {
+        'xs': '475px',
+        'xxs': '50px',
+      }
     },
   },
   plugins: [],
