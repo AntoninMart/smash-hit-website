@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-map',
@@ -6,4 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent {
+  constructor(private router: Router) { }
+  redirectToPage(){
+    this.router.navigate(['/mentionsLegale']);
+  }
 }

@@ -12,6 +12,7 @@ import { AccueilComponent } from './components/accueil/accueil.component';
 import { RestauComponent } from './components/restau/restau.component';
 import { HitDuMoisComponent } from './components/hit-du-mois/hit-du-mois.component';
 import { CommandesComponent } from './pages/commandes/commandes.component';
+import { MentionsLegaleComponent } from './pages/mentions-legale/mentions-legale.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CommandesComponent } from './pages/commandes/commandes.component';
     RestauComponent,
     HitDuMoisComponent,
     CommandesComponent,
+    MentionsLegaleComponent,
   ],
   imports: [
     BrowserModule,
