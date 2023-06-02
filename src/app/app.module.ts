@@ -11,6 +11,7 @@ import { CarteComponent } from './components/carte/carte.component';
 import { AccueilComponent } from './components/accueil/accueil.component';
 import { RestauComponent } from './components/restau/restau.component';
 import { HitDuMoisComponent } from './components/hit-du-mois/hit-du-mois.component';
+import { CommandesComponent } from './pages/commandes/commandes.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HitDuMoisComponent } from './components/hit-du-mois/hit-du-mois.compone
     AccueilComponent,
     RestauComponent,
     HitDuMoisComponent,
+    CommandesComponent,
   ],
   imports: [
     BrowserModule,
