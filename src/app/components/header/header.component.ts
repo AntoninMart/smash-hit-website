@@ -6,5 +6,33 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
+  e: string;
+  constructor() { 
+    this.e = "menu";
+  }
+  Menu(): void {
+    const list = document.querySelector('ul') as HTMLElement;
+    console.log(this.e);
+    const open_icon = document.getElementById("open");
+    const close_icon = document.getElementById("close");
+    if (this.e === 'menu') {
+      this.e = "close";
+      list.classList.remove('opacity-0');
+      list.classList.add('opacity-100');
+      // Get element by id
+      open_icon?.classList.remove('block');
+      open_icon?.classList.add('hidden');
+      close_icon?.classList.remove('hidden');
+      close_icon?.classList.add('block');
+    } else {
+      this.e = "menu";
+      
+      list.classList.remove('opacity-100');
+      list.classList.add('opacity-0');
+      open_icon?.classList.remove('block');
+      close_icon?.classList.add('hidden');
+      open_icon?.classList.remove('hidden');
+      open_icon?.classList.add('block');
+    }
+  }
 }
