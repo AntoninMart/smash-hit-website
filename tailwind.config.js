@@ -6,9 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'smash-grey': '#212121',
-        'smash-red': '#d73131',
-        'smash-yellow': '#ffab00',
+        'smash-grey': '#343232',
+        'smash-red': '#D14D36',
+        'smash-yellow': '#FAB400',
+        'smash-white': '#E0D8C4',
       },
       screens: {
         'xs': '475px',

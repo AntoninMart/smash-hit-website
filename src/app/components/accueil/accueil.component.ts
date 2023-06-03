@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./accueil.component.scss']
 })
 export class AccueilComponent {
-
+  scrollToCarte() {
+    const element = document.getElementById("carte");
+    element?.scrollIntoView({ behavior: "smooth" });
+  }
 }
