@@ -3,12 +3,12 @@
         <img src="assets/images/SMASH HIT - LOGO HORIZONTAL COULEURS.png" alt="logo smash it circle" class="xxs:h-14 lg:h-20 xxs:hidden md:flex">
         <img src="assets/images/logo_burger.png" alt="logo smash it circle" class="xxs:h-14 lg:h-20 xxs:flex md:hidden">
     </div>
-    <nav class="flex flex-row gap-4 text-black text-xl font-bold flex-1 justify-end self-center pr-6 xxs:hidden md:flex">
+    <nav class="flex flex-row gap-4 text-black text-xl font-bold flex-1 justify-end self-center pr-6 xxs:hidden lg:flex">
         <a class="hover:text-smash-red duration-300" href="#restau">Qui sommes-nous ?</a>
         <a class="hover:text-smash-red duration-300" href="#carte">Carte</a>
         <a class="hover:text-smash-red duration-300" href="#contact">Contact</a>
     </nav>
-    <button class="xxs:flex md:hidden" (click)="Menu()">
+    <button class="xxs:flex lg:hidden" (click)="Menu()">
         <div id="open" class="">
             <span class="material-symbols-outlined">
                 menu
@@ -20,15 +20,15 @@
             </span>
         </div>
     </button>
-    <ul class="md:hidden top-[100px] absolute bg-smash-white w-full left-0 opacity-0 transition-all ease-in duration-300 z-50">
+    <ul class="lg:hidden top-[100px] text-center absolute bg-smash-white w-full left-0 opacity-0 transition-all ease-in duration-300 z-50">
         <li class="mx-4 my-6 md:my-0">
-          <a href="#restau" class="text-xl hover:text-cyan-500 duration-500">Qui sommes-nous ?</a>
+          <a href="#restau" class="text-xl hover:text-smash-red duration-300">Qui sommes-nous ?</a>
         </li>
         <li class="mx-4 my-6 md:my-0">
-          <a href="#carte" class="text-xl hover:text-cyan-500 duration-500">Carte</a>
+          <a href="#carte" class="text-xl hover:text-smash-red duration-300">Carte</a>
         </li>
         <li class="mx-4 my-6 md:my-0">
-          <a href="#contact" class="text-xl hover:text-cyan-500 duration-500">Contact</a>
+          <a href="#contact" class="text-xl hover:text-smash-red duration-300">Contact</a>
         </li>
       </ul>
     
