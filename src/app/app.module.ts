@@ -13,6 +13,7 @@ import { RestauComponent } from './components/restau/restau.component';
 import { HitDuMoisComponent } from './components/hit-du-mois/hit-du-mois.component';
 import { CommandesComponent } from './pages/commandes/commandes.component';
 import { MentionsLegaleComponent } from './pages/mentions-legale/mentions-legale.component';
+import { InstaComponent } from './components/insta/insta.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { MentionsLegaleComponent } from './pages/mentions-legale/mentions-legale
     HitDuMoisComponent,
     CommandesComponent,
     MentionsLegaleComponent,
+    InstaComponent,
   ],
   imports: [
     BrowserModule,
