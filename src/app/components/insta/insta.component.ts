@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./insta.component.scss']
 })
 export class InstaComponent {
-
+  redirectToInsta(){
+    window.open('https://www.instagram.com/smashhitreims/','_blank')
+  }
 }
