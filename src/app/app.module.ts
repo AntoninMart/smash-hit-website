@@ -14,6 +14,7 @@ import { HitDuMoisComponent } from './components/hit-du-mois/hit-du-mois.compone
 import { CommandesComponent } from './pages/commandes/commandes.component';
 import { MentionsLegaleComponent } from './pages/mentions-legale/mentions-legale.component';
 import { InstaComponent } from './components/insta/insta.component';
+import { CarrousselComponent } from './components/carroussel/carroussel.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { InstaComponent } from './components/insta/insta.component';
     CommandesComponent,
     MentionsLegaleComponent,
     InstaComponent,
+    CarrousselComponent,
   ],
   imports: [
     BrowserModule,
