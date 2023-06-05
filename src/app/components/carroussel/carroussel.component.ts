@@ -7,18 +7,22 @@ import { delay } from 'rxjs';
   styleUrls: ['./carroussel.component.scss']
 })
 export class CarrousselComponent {
-  constructor(){
-    // this.Defillement();
+  public imgs: any = [
+    "",
+    "",
+    "S"
+  ]
+  constructor() {
+    this.Defillement();
   }
-  Defillement():void{
-    const elements: NodeListOf<Element> = document.querySelectorAll('.ma-classe');
-    // while(true){
-      elements.forEach((element: Element) => {
-        // Faire quelque chose avec chaque élément
-          element.classList.remove('hidden')
-          element.classList.add('block')
-          delay(20000);
-      });
-    // }
+
+  public Defillement(): void {
+
+
+    // Faire quelque chose avec chaque élément
+    // element.classList.remove('hidden')
+    // element.classList.add('block')
+
+
   }
 }
