@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { delay } from 'rxjs';
+import { CarouselModule } from 'primeng/carousel';
 
 @Component({
   selector: 'app-carroussel',
@@ -7,22 +8,6 @@ import { delay } from 'rxjs';
   styleUrls: ['./carroussel.component.scss']
 })
 export class CarrousselComponent {
-  public imgs: any = [
-    "",
-    "",
-    "S"
-  ]
   constructor() {
-    this.Defillement();
-  }
-
-  public Defillement(): void {
-
-
-    // Faire quelque chose avec chaque élément
-    // element.classList.remove('hidden')
-    // element.classList.add('block')
-
-
   }
 }
