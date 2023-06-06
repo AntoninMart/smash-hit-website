@@ -1,5 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// PrimeNG
+import { CarouselModule } from 'primeng/carousel';
+import { TagModule } from 'primeng/tag';
+import { ButtonModule } from 'primeng/button';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +22,7 @@ import { CommandesComponent } from './pages/commandes/commandes.component';
 import { MentionsLegaleComponent } from './pages/mentions-legale/mentions-legale.component';
 import { InstaComponent } from './components/insta/insta.component';
 import { CarrousselComponent } from './components/carroussel/carroussel.component';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +42,11 @@ import { CarrousselComponent } from './components/carroussel/carroussel.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    CarouselModule,
+    TagModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

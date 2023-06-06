@@ -1,20 +1,13 @@
-<!-- <section class="">
-    <p-carousel [value]="products" [numVisible]="3" [numScroll]="3" [circular]="false" [responsiveOptions]="responsiveOptions">
-        <ng-template let-product pTemplate="item">
-            <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
-                <div class="mb-3">
-                    <img src="https://primefaces.org/cdn/primeng/images/demo/product/{{ product.image }}" [alt]="product.name" class="w-6 shadow-2" />
-                </div>
-                <div>
-                    <h4 class="mb-1">{{ product.name }}</h4>
-                    <h6 class="mt-0 mb-3">{{ '$' + product.price }}</h6>
-                    <p-tag [value]="product.inventoryStatus" [severity]="getSeverity(product.inventoryStatus)"></p-tag>
-                    <div class="car-buttons mt-5">
-                        <p-button type="button" styleClass="p-button p-button-rounded mr-2" icon="pi pi-search"></p-button>
-                        <p-button type="button" styleClass="p-button-success p-button-rounded mr-2" icon="pi pi-star-fill"></p-button>
-                    </div>
-                </div>
+<p-carousel [ngStyle]="" [value]="products" [numVisible]="1" [numScroll]="1" [circular]="false" [autoplayInterval]="5000">
+    <ng-template let-product pTemplate="item">
+        <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+            <div class="flex flex-col items-center mb-3 shadow-2 bg-smash-red rounded-lg py-5">
+                <img src="assets/images/{{ product.image }}" [alt]="product.name" class="xxxs:w-20 xxxs:h-20 xxs:w-32 xxs:h-32 xs:w-60 xs:h-60" />
             </div>
-        </ng-template>
-    </p-carousel>
-</section> -->
+            <div>
+                <h4 class="mb-1 text-xl font-bold">{{ product.name }}</h4>
+                <p-tag [value]="product.inventoryStatus" severity="warning"></p-tag>
+            </div>
+        </div>
+    </ng-template>
+</p-carousel>
