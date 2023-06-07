@@ -16,6 +16,20 @@
             "Id": "burgers_divers"
         }
     ],
+    "burgers_poulet":[
+        {
+            "Name" : "Burger Poulet",
+            "Image": "menu_img/Burgers poulet/BURGER-POULET.png"
+        },
+        {
+            "Name" : "Burger Poulet",
+            "Image": "menu_img/Burgers poulet/BURGER-POULET2.png"
+        },
+        {
+            "Name" : "Nugget",
+            "Image": "menu_img/Burgers poulet/NUGGETS2.png"
+        }
+    ],
     "burgers_hit": [
         {
             "Name" : "Solo cheese",
