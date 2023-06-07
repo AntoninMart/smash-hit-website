@@ -128,8 +128,56 @@
     ],
     "milkshakes": [
         {
-            "Name" : "Milkshake nuttela",
-            "Image": "milkshake_transparant.png"
+            "Name" : "Shake hit ultimate banane",
+            "Image": "menu_img/Shake It/_0000_SHAKE-HIT-ULTIMATE-BANANE.png"
+        },
+        {
+            "Name" : "Shake hit speculos",
+            "Image": "menu_img/Shake It/_0001_SHAKE-HIT-SPECULOS.png"
+        },
+        {
+            "Name" : "Shake hit pistache",
+            "Image": "menu_img/Shake It/_0002_SHAKE-HIT-PISTACHE.png"
+        },
+        {
+            "Name" : "Shake hit pistache",
+            "Image": "menu_img/Shake It/_0003_SHAKE-HIT-OREO.png"
+        },
+        {
+            "Name" : "Shake hit nutella banane",
+            "Image": "menu_img/Shake It/_0004_SHAKE-HIT-NUTELLA-BANANE.png"
+        },
+        {
+            "Name" : "Shake hit nutella",
+            "Image": "menu_img/Shake It/_0005_SHAKE-HIT-NUTELLA.png"
+        },
+        {
+            "Name" : "Shake hit hit M&M's",
+            "Image": "menu_img/Shake It/_0006_SHAKE-HIT-MMS.png"
+        },
+        {
+            "Name" : "Shake hit hit Kit Kat",
+            "Image": "menu_img/Shake It/_0007_SHAKE-HIT-KIT-KAT.png"
+        },
+        {
+            "Name" : "Shake hit hit fraise banane",
+            "Image": "menu_img/Shake It/_0008_SHAKE-HIT-FRAISE-BANANE.png"
+        },
+        {
+            "Name" : "Shake hit hit fraise",
+            "Image": "menu_img/Shake It/_0009_SHAKE-HIT-FRAISE.png"
+        },
+        {
+            "Name" : "Shake hit hit chocolat",
+            "Image": "menu_img/Shake It/_0010_SHAKE-HIT-CHOCOLAT.png"
+        },
+        {
+            "Name" : "Shake hit hit caramel salé",
+            "Image": "menu_img/Shake It/_0011_SHAKE-HIT-CARAMEL-SALÉ.png"
+        },
+        {
+            "Name" : "Shake hit hit vanille",
+            "Image": "menu_img/Shake It/_0012_SHAKE-HIT-VANILLE.png"
         }
     ],
     "boissons": [
