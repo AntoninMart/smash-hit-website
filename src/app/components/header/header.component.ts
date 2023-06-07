@@ -15,6 +15,7 @@ export class HeaderComponent {
     console.log(this.e);
     const open_icon = document.getElementById("open");
     const close_icon = document.getElementById("close");
+    const nav_list = document.getElementById("nav_list");
     if (this.e === 'menu') {
       this.e = "close";
       list.classList.remove('opacity-0');
@@ -22,8 +23,13 @@ export class HeaderComponent {
       // Get element by id
       open_icon?.classList.remove('block');
       open_icon?.classList.add('hidden');
+
       close_icon?.classList.remove('hidden');
       close_icon?.classList.add('block');
+
+      nav_list?.classList.remove('hidden');
+      nav_list?.classList.add('block');
+
     } else {
       this.e = "menu";
       
@@ -31,8 +37,12 @@ export class HeaderComponent {
       list.classList.add('opacity-0');
       open_icon?.classList.remove('block');
       close_icon?.classList.add('hidden');
+
       open_icon?.classList.remove('hidden');
       open_icon?.classList.add('block');
+
+      nav_list?.classList.remove('block');
+      nav_list?.classList.add('hidden');
     }
   }
 }

@@ -126,12 +126,6 @@
             "Image": "menu_img/Frites/_0000_FRITE-CHEDDAR-OIGNONS-FRITS-.png"
         }
     ],
-    "hit_dogs": [
-        {
-            "Name" : "Hit dogs",
-            "Image": "le_chien_chaud.png"
-        }
-    ],
     "milkshakes": [
         {
             "Name" : "Milkshake nuttela",
@@ -301,6 +295,36 @@
         {
             "Name": "Caprisun multi",
             "Image": "menu_img/Boissons/_0021_CAPRISUN_MULTI.png"
+        }
+    ],
+    "hit_dogs":[
+        {
+            "Name": "Hit dog enfant",
+            "Image": "menu_img/Hit Dog/_0000_HIT-DOG-ENFANT.png"
+        },
+        {
+            "Name": "Hit dog cowboy BBQ",
+            "Image": "menu_img/Hit Dog/_0001_HIT-DOG-COW-BOY-BBQ-BACON.png"
+        },
+        {
+            "Name": "Hit dog classique",
+            "Image": "menu_img/Hit Dog/_0002_HIT-DOG-CLASSIC.png"
+        },
+        {
+            "Name": "Hit dog bacon addicted",
+            "Image": "menu_img/Hit Dog/_0003_HIT-DOG-BACON-ADDICTED.png"
+        },
+        {
+            "Name": "Hit dog mexican lovers",
+            "Image": "menu_img/Hit Dog/_0004_HIT-DOG-MEXICAN-LOVERS.png"
+        },
+        {
+            "Name": "Hit dog imperial bacon egg",
+            "Image": "menu_img/Hit Dog/_0005_HIT-DOG-IMPERIAL-BACON-EGG.png"
+        },
+        {
+            "Name": "Hit dog fresh guacamole",
+            "Image": "menu_img/Hit Dog/_0006_HIT-DOG-FRESH-GUACAMOLE.png"
         }
     ]
 }
