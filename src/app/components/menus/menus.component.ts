@@ -32,13 +32,16 @@ export class MenusComponent {
     } else {
       const products = this.product[display_name] || [];
       if (products.length === 0) {
+        console.log(products);
+        console.log('No product found');
         return;
       }
       this.display_product_tab = [];
       products.forEach((product: any) => {
         const product_obj = {
           name: product.Name,
-          image: `assets/images/${product.Image}`
+          image: `assets/images/${product.Image}`,
+          id: product.Id
         };
         this.display_product_tab.push(product_obj);
       });
