@@ -2,27 +2,33 @@
     "Categories": [
         {
             "Name" : "Burgers",
-            "Image": "burger_triple.png"
+            "Image": "burger_triple.png",
+            "Id": "burgers"
         },
         {
             "Name" : "Frites fraîches",
-            "Image": "frites_smash_hit.png"
+            "Image": "frites_smash_hit.png",
+            "Id": "frites_fraiches"
         },
         {
             "Name" : "Hit dogs",
-            "Image": "le_chien_chaud.png"
+            "Image": "le_chien_chaud.png",
+            "Id": "hit_dogs"
         },
         {
             "Name" : "Menu Veggie",
-            "Image": "burger_veggies.png"
+            "Image": "burger_veggies.png",
+            "Id": "menu_veggie"
         },
         {
             "Name" : "Milkshakes",
-            "Image": "milkshake_transparant.png"
+            "Image": "milkshake_transparant.png",
+            "Id": "milkshakes"
         },
         {
             "Name" : "Autres",
-            "Image": "burger_autres.png"
+            "Image": "burger_autres.png",
+            "Id": "autres"
         }
     ]
 }

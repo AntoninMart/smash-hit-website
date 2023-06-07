@@ -12,19 +12,20 @@ export class MenusComponent {
   categories: any = categories;
   display_product_tab: any[] = [];
   constructor() {
-    console.log(this.product);
-    console.log(this.product['Burgers'][0].Name);
-    this.display_product();
+    let display_name = 'menus';
+    this.display_product(display_name);
   }
   
-  display_product(display_name : string = 'menus') {
+  display_product(display_name: string) {
+    console.log(display_name);
     if (display_name === 'menus') {
       const products = this.categories['Categories'] || [];
       this.display_product_tab = [];
       products.forEach((product: any) => {
         const product_obj = {
           name: product.Name,
-          image: `assets/images/${product.Image}`
+          image: `assets/images/${product.Image}`,
+          id: product.Id
         };
         this.display_product_tab.push(product_obj);
       });

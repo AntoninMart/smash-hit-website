@@ -1,5 +1,5 @@
 {
-    "Burgers": [
+    "burgers": [
         {
             "Name" : "Burger triples",
             "Image": "burger_triple.png"
@@ -9,31 +9,31 @@
             "Image": "burgerz_transparant.png"
         }
     ],
-    "Frites Fraiches": [
+    "frites_fraiches": [
         {
             "Name" : "Frites cheddar bacon",
             "Image": "frites_smash_hit.png"
         }
     ],
-    "Hit dogs": [
+    "hit_dogs": [
         {
             "Name" : "Hit dogs",
             "Image": "le_chien_chaud.png"
         }
     ],
-    "Veggie": [
+    "menu_veggie": [
         {
             "Name" : "Burger veggie",
             "Image": "burger_veggies.png"
         }
     ],
-    "Milkshakes": [
+    "milkshakes": [
         {
             "Name" : "Milkshake nuttela",
             "Image": "milkshake_transparant.png"
         }
     ],
-    "Autres": [
+    "autres": [
         {
             "Name" : "Burgers Nutella",
             "Image": "burger_autres.png"
