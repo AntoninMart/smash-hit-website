@@ -1,0 +1,380 @@
+{
+    "burgers": [
+        {
+            "Name": "Burgers Smash",
+            "Image": "menu_img/Burgers/Smash/_0007_IMPERIAL-BACON-EGG.png",
+            "Id": "burgers_smash"
+        },
+        {
+            "Name": "Burgers Hit",
+            "Image": "menu_img/Burgers/Hit/_0003_MEXICAN-LOVERS.png",
+            "Id": "burgers_hit"
+        },
+        {
+            "Name": "Burgers Divers",
+            "Image": "menu_img/Burgers/Divers/_0005_MIAMI_TOAST.png",
+            "Id": "burgers_divers"
+        }
+    ],
+    "burgers_poulet":[
+        {
+            "Name" : "Burger Poulet",
+            "Image": "menu_img/Burgers poulet/BURGER-POULET.png"
+        },
+        {
+            "Name" : "Burger Poulet",
+            "Image": "menu_img/Burgers poulet/BURGER-POULET2.png"
+        },
+        {
+            "Name" : "Nugget",
+            "Image": "menu_img/Burgers poulet/NUGGETS2.png"
+        }
+    ],
+    "burgers_hit": [
+        {
+            "Name" : "Solo cheese",
+            "Image": "menu_img/Burgers/Hit/_0001_SOLO-CHEESE.png"
+        },
+        {
+            "Name" : "Mexican lovers",
+            "Image": "menu_img/Burgers/Hit/_0003_MEXICAN-LOVERS.png"
+        },
+        {
+            "Name" : "Imperial bacon egg",
+            "Image": "menu_img/Burgers/Hit/_0005_IMPERIAL-BACON-EGG.png"
+        },
+        {
+            "Name" : "Fresh guacamole",
+            "Image": "menu_img/Burgers/Hit/_0007_FRESH-GUACAMOLE.png"
+        },
+        {
+            "Name" : "Cow boy BBQ bacon",
+            "Image": "menu_img/Burgers/Hit/_0009_COW_BOY_BBQ_BACON.png"
+        },
+        {
+            "Name" : "Cow boy BBQ bacon",
+            "Image": "menu_img/Burgers/Hit/_0011_BACON-ADDICTED.png"
+        }
+    ],
+    "burgers_smash": [
+        {
+            "Name" : "Triple cheese",
+            "Image": "menu_img/Burgers/Smash/_0001_TRIPLE-CHEESE.png"
+        },
+        {
+            "Name" : "Solo cheese",
+            "Image": "menu_img/Burgers/Smash/_0003_SOLO-CHEESE.png"
+        },
+        {
+            "Name" : "Mexican lovers",
+            "Image": "menu_img/Burgers/Smash/_0005_MEXICAN-LOVERS.png"
+        },
+        {
+            "Name" : "Imperial bacon egg",
+            "Image": "menu_img/Burgers/Smash/_0007_IMPERIAL-BACON-EGG.png"
+        },
+        {
+            "Name" : "Fresh guacamole",
+            "Image": "menu_img/Burgers/Smash/_0009_FRESH-GUACAMOLE.png"
+        },
+        {
+            "Name" : "Double cheese",
+            "Image": "menu_img/Burgers/Smash/_0011_DOUBLE-CHEESE.png"
+        },
+        {
+            "Name" : "Cow boy BBQ bacon",
+            "Image": "menu_img/Burgers/Smash/_0013_COW-BOY-BBQ-BACON.png"
+        },
+        {
+            "Name" : "Bacon addicted",
+            "Image": "menu_img/Burgers/Smash/_0015_BACON-ADDICTED.png"
+        }
+    ],
+    "burgers_divers":[
+        {
+            "Name" : "Veggie fresh guacamole",
+            "Image": "menu_img/Burgers/Divers/_0001_VEGGIE-FRESH-GUACAMOLE.png"
+        },
+        {
+            "Name" : "Veggie classic",
+            "Image": "menu_img/Burgers/Divers/_0003_VEGGIE-CLASSIC.png"
+        },
+        {
+            "Name" : "Miami toast",
+            "Image": "menu_img/Burgers/Divers/_0005_MIAMI_TOAST.png"
+        },
+        {
+            "Name" : "Burger enfant",
+            "Image": "menu_img/Burgers/Divers/_0007_BURGER_ENFANTS.png"
+        }
+    ],
+    "frites_fraiches": [
+        {
+            "Name" : "Frites cheddar",
+            "Image": "menu_img/Frites/_0001_FRITE-CHEDDAR.png"
+        },
+        {
+            "Name" : "Frites cheddar bacon",
+            "Image": "menu_img/Frites/_0002_FRITE-BACON.png"
+        },
+        {
+            "Name" : "Frites fraîche",
+            "Image": "menu_img/Frites/_0003_FRITE-FRAICHE.png"
+        },
+        {
+            "Name": "Frites cheddar oignons",
+            "Image": "menu_img/Frites/_0000_FRITE-CHEDDAR-OIGNONS-FRITS-.png"
+        }
+    ],
+    "milkshakes": [
+        {
+            "Name" : "Shake hit ultimate banane",
+            "Image": "menu_img/Shake It/_0000_SHAKE-HIT-ULTIMATE-BANANE.png"
+        },
+        {
+            "Name" : "Shake hit speculos",
+            "Image": "menu_img/Shake It/_0001_SHAKE-HIT-SPECULOS.png"
+        },
+        {
+            "Name" : "Shake hit pistache",
+            "Image": "menu_img/Shake It/_0002_SHAKE-HIT-PISTACHE.png"
+        },
+        {
+            "Name" : "Shake hit pistache",
+            "Image": "menu_img/Shake It/_0003_SHAKE-HIT-OREO.png"
+        },
+        {
+            "Name" : "Shake hit nutella banane",
+            "Image": "menu_img/Shake It/_0004_SHAKE-HIT-NUTELLA-BANANE.png"
+        },
+        {
+            "Name" : "Shake hit nutella",
+            "Image": "menu_img/Shake It/_0005_SHAKE-HIT-NUTELLA.png"
+        },
+        {
+            "Name" : "Shake hit hit M&M's",
+            "Image": "menu_img/Shake It/_0006_SHAKE-HIT-MMS.png"
+        },
+        {
+            "Name" : "Shake hit hit Kit Kat",
+            "Image": "menu_img/Shake It/_0007_SHAKE-HIT-KIT-KAT.png"
+        },
+        {
+            "Name" : "Shake hit hit fraise banane",
+            "Image": "menu_img/Shake It/_0008_SHAKE-HIT-FRAISE-BANANE.png"
+        },
+        {
+            "Name" : "Shake hit hit fraise",
+            "Image": "menu_img/Shake It/_0009_SHAKE-HIT-FRAISE.png"
+        },
+        {
+            "Name" : "Shake hit hit chocolat",
+            "Image": "menu_img/Shake It/_0010_SHAKE-HIT-CHOCOLAT.png"
+        },
+        {
+            "Name" : "Shake hit hit caramel salé",
+            "Image": "menu_img/Shake It/_0011_SHAKE-HIT-CARAMEL-SALÉ.png"
+        },
+        {
+            "Name" : "Shake hit hit vanille",
+            "Image": "menu_img/Shake It/_0012_SHAKE-HIT-VANILLE.png"
+        }
+    ],
+    "boissons": [
+        {
+            "Name": "Bières",
+            "Image": "menu_img/Boissons/_0007_JUPILER.png",
+            "Id": "boissons_biere"
+        },
+        {
+            "Name": "Café / Thé",
+            "Image": "menu_img/Boissons/_0006_NOISETTE.png",
+            "Id": "boissons_cafe_the"
+        },
+        {
+            "Name": "Vin",
+            "Image": "menu_img/Boissons/_0004_ROUGE.png",
+            "Id": "boissons_vin"
+        },
+        {
+            "Name": "Eau",
+            "Image": "menu_img/Boissons/_0000_VITTEL_PLASTIQUE.png",
+            "Id": "boissons_eau"
+        },
+        {
+            "Name": "Soda",
+            "Image": "menu_img/Boissons/_0009_FINE_COLA_ZERO.png",
+            "Id": "boissons_soda"
+        }
+    ],
+    "boissons_biere": [
+        {
+            "Name": "Jupiler",
+            "Image": "menu_img/Boissons/_0007_JUPILER.png"
+        },
+        { 
+            "Name": "IPA",
+            "Image": "menu_img/Boissons/_0008_IPA.png"
+        },
+        {
+            "Name": "Corona",
+            "Image": "menu_img/Boissons/_0013_CORONA.png"
+        },
+        {
+            "Name": "Bud pinte",
+            "Image": "menu_img/Boissons/_0024_BUD_PINTE.png"
+        },
+        {
+            "Name": "Bud demi",
+            "Image": "menu_img/Boissons/_0025_BUD_DEMI.png"
+        }
+    ],
+    "boissons_cafe_the": [
+        {
+            "Name": "Thé vert",
+            "Image": "menu_img/Boissons/_0001_THÉ.png"
+        },
+        {
+            "Name": "Café noisette",
+            "Image": "menu_img/Boissons/_0006_NOISETTE.png"
+        },
+        {
+            "Name": "Expresso",
+            "Image": "menu_img/Boissons/_0011_EXPRESSO.png"
+        },
+        {
+            "Name": "Double expresso",
+            "Image": "menu_img/Boissons/_0012_DOUBLE-EXPRESSO.png"
+        },
+        {
+            "Name": "Capuccino",
+            "Image": "menu_img/Boissons/_0019_CAPUCCINO.png"
+        },
+        {
+            "Name": "Café au lait",
+            "Image": "menu_img/Boissons/_0022_CAFÉ_LAIT.png"
+        },
+        {
+            "Name": "Café américain",
+            "Image": "menu_img/Boissons/_0023_CAFÉ_AMÉRICAIN.png"
+        }
+    ],
+    "boissons_vin": [
+        {
+            "Name": "Vin rouge",
+            "Image": "menu_img/Boissons/_0004_ROUGE.png"
+        },
+        {
+            "Name": "Rosé",
+            "Image": "menu_img/Boissons/_0005_ROSÉ.png"
+        },
+        {
+            "Name": "Champagne",
+            "Image": "menu_img/Boissons/_0017_CHAMPAGNE2.png"
+        },
+        {
+            "Name": "Champagne",
+            "Image": "menu_img/Boissons/_0018_CHAMPAGNE1.png"
+        },
+        {
+            "Name": "Verre de champagne",
+            "Image": "menu_img/Boissons/CHAMPAGNE_VERRE.png"
+        },
+        {
+            "Name": "Verre de rosé",
+            "Image": "menu_img/Boissons/ROSÉ_VERRE.png"
+        },
+        {
+            "Name": "Verre de rouge",
+            "Image": "menu_img/Boissons/ROUGE_VERRE.png"
+        },
+        {
+            "Name": "Verre de blanc",
+            "Image": "menu_img/Boissons/_0026_BLANC_VERRE.png"
+        },
+        {
+            "Name": "Blanc",
+            "Image": "menu_img/Boissons/_0027_BLANC.png"
+        }
+    ],
+    "boissons_eau": [
+        {
+            "Name": "Vittel",
+            "Image": "menu_img/Boissons/_0000_VITTEL_PLASTIQUE.png"
+        },
+        {
+            "Name": "Sans P verre",
+            "Image": "menu_img/Boissons/_0002_SAN_P_VERRE.png"
+        },
+        {
+            "Name": "Sans P plastique",
+            "Image": "menu_img/Boissons/_0003_SAN_P_PLASTIQUE.png"
+        },
+        {
+            "Name": "Vittel Verre",
+            "Image": "menu_img/Boissons/_0028_VITTEL_VERRE.png"
+        }
+    ],
+    "boissons_soda": [
+        {
+            "Name": "Fine cola zero",
+            "Image": "menu_img/Boissons/_0009_FINE_COLA_ZERO.png"
+        },
+        {
+            "Name": "Fine cola",
+            "Image": "menu_img/Boissons/_0010_FINA_COLA.png"
+        },
+        {
+            "Name": "Coca Zero",
+            "Image": "menu_img/Boissons/_0014_COCA-ZERO.png"
+        },
+        {
+            "Name": "Coca cola",
+            "Image": "menu_img/Boissons/_0015_COCA-COLA.png"
+        },
+        {
+            "Name": "Citronade",
+            "Image": "menu_img/Boissons/_0016_CITRONNADE.png"
+        },
+        {
+            "Name": "Caprisun orange",
+            "Image": "menu_img/Boissons/_0020_CAPRISUN_ORANGE.png"
+        },
+        {
+            "Name": "Caprisun multi",
+            "Image": "menu_img/Boissons/_0021_CAPRISUN_MULTI.png"
+        }
+    ],
+    "hit_dogs":[
+        {
+            "Name": "Hit dog enfant",
+            "Image": "menu_img/Hit Dog/_0000_HIT-DOG-ENFANT.png"
+        },
+        {
+            "Name": "Hit dog cowboy BBQ",
+            "Image": "menu_img/Hit Dog/_0001_HIT-DOG-COW-BOY-BBQ-BACON.png"
+        },
+        {
+            "Name": "Hit dog classique",
+            "Image": "menu_img/Hit Dog/_0002_HIT-DOG-CLASSIC.png"
+        },
+        {
+            "Name": "Hit dog bacon addicted",
+            "Image": "menu_img/Hit Dog/_0003_HIT-DOG-BACON-ADDICTED.png"
+        },
+        {
+            "Name": "Hit dog mexican lovers",
+            "Image": "menu_img/Hit Dog/_0004_HIT-DOG-MEXICAN-LOVERS.png"
+        },
+        {
+            "Name": "Hit dog imperial bacon egg",
+            "Image": "menu_img/Hit Dog/_0005_HIT-DOG-IMPERIAL-BACON-EGG.png"
+        },
+        {
+            "Name": "Hit dog fresh guacamole",
+            "Image": "menu_img/Hit Dog/_0006_HIT-DOG-FRESH-GUACAMOLE.png"
+        }
+    ]
+}
+
+    

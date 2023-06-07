@@ -1,0 +1,34 @@
+{
+    "Categories": [
+        {
+            "Name" : "Burgers",
+            "Image": "menu_img/Burgers/Smash/_0001_TRIPLE-CHEESE.png",
+            "Id": "burgers"
+        },
+        {
+            "Name" : "Frites fraîches",
+            "Image": "menu_img/Frites/_0002_FRITE-BACON.png",
+            "Id": "frites_fraiches"
+        },
+        {
+            "Name" : "Hit dogs",
+            "Image": "menu_img/Hit Dog/_0002_HIT-DOG-CLASSIC.png",
+            "Id": "hit_dogs"
+        },
+        {
+            "Name" : "Burgers poulet",
+            "Image": "menu_img/Burgers poulet/BURGER-POULET.png",
+            "Id": "burgers_poulet"
+        },
+        {
+            "Name" : "Milkshakes",
+            "Image": "menu_img/Shake It/_0005_SHAKE-HIT-NUTELLA.png",
+            "Id": "milkshakes"
+        },
+        {
+            "Name" : "Boissons",
+            "Image": "/menu_img/Boissons/_0000_VITTEL_PLASTIQUE.png",
+            "Id": "boissons"
+        }
+    ]
+}
