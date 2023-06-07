@@ -1,0 +1,19 @@
+<section id="carte" class="flex flex-col bg-gradient-to-r from-smash-yellow to-smash-red py-20 px-6">
+    <button class="text-4xl justify-items-start" onclick="location.reload()">
+        <span class="material-symbols-outlined">
+            arrow_back
+        </span>
+    </button>
+    <div class="grid grid-cols-1 xl:grid-cols-3">
+        <div *ngFor="let product of display_product_tab">
+            <div class="flex flex-col bg-smash-white text-center m-2 rounded-md items-center hover:shadow-lg hover:shadow-smash-red duration-300 overflow-hidden py-4">
+                <h1 class="self-center text-4xl font-bold mb-2">{{product.name}}</h1>
+                <div class="bg-smash-red rounded-full p-4">
+                    <button (click)="display_product(product.name)">
+                        <img class="xxs:h-40 xxs:w-40 md:w-64 md:h-64 hover:scale-110 duration-300" src="{{ product.image }}" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

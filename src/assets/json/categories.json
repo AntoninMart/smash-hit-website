@@ -1,0 +1,28 @@
+{
+    "Categories": [
+        {
+            "Name" : "Burgers",
+            "Image": "burger_triple.png"
+        },
+        {
+            "Name" : "Frites fraîches",
+            "Image": "frites_smash_hit.png"
+        },
+        {
+            "Name" : "Hit dogs",
+            "Image": "le_chien_chaud.png"
+        },
+        {
+            "Name" : "Menu Veggie",
+            "Image": "burger_veggies.png"
+        },
+        {
+            "Name" : "Milkshakes",
+            "Image": "milkshake_transparant.png"
+        },
+        {
+            "Name" : "Autres",
+            "Image": "burger_autres.png"
+        }
+    ]
+}

@@ -22,6 +22,7 @@ import { CommandesComponent } from './pages/commandes/commandes.component';
 import { MentionsLegaleComponent } from './pages/mentions-legale/mentions-legale.component';
 import { InstaComponent } from './components/insta/insta.component';
 import { CarrousselComponent } from './components/carroussel/carroussel.component';
+import { MenusComponent } from './components/menus/menus.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { CarrousselComponent } from './components/carroussel/carroussel.componen
     MentionsLegaleComponent,
     InstaComponent,
     CarrousselComponent,
+    MenusComponent,
   ],
   imports: [
     BrowserModule,
