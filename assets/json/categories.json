@@ -25,6 +25,12 @@
             "Title": "Burgers poulet"
         },
         {
+            "Name" : "Menu enfant",
+            "Image": "menu_img/Burgers/Divers/BURGER_ENFANTS.png",
+            "Id": "menu_enfant",
+            "Title": "Menu enfant"
+        },
+        {
             "Name" : "Milkshakes",
             "Image": "menu_img/Shake It/SHAKE-HIT-NUTELLA.png",
             "Id": "milkshakes",
