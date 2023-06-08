@@ -1,5 +1,9 @@
 :host ::ng-deep {
     .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
         background-color: #ffab00 !important;
+        color: black !important;
+    }
+    .p-tag.p-tag-warning {
+        color: black !important;
     }
 }

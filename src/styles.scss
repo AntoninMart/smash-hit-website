@@ -8,11 +8,36 @@
     font-family: 'Candela';
     src: url('assets/font/Candela.otf') format('opentype');
 }
+@font-face {
+    font-family: 'Grotesque';
+    src: url('assets/font/brandon-grotesque-black.otf') format('opentype');
+}
 
 * {
     -webkit-user-select: none; /* Pour les navigateurs basés sur WebKit */
     -moz-user-select: none; /* Pour les navigateurs basés sur Gecko */
     -ms-user-select: none; /* Pour Internet Explorer/Edge */
     user-select: none; /* Standard */
+    // font-family: Candela;
+    font-family: Grotesque;
+}
+
+.font-candela {
     font-family: Candela;
+}
+
+.font-grotesque {
+    font-family: Grotesque;
+}
+
+h1 {
+    font-family: Candela;
+}
+
+h2 {
+    font-family: Candela;
+}
+
+p {
+    font-family: Grotesque;
 }
