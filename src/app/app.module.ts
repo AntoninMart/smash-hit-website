@@ -14,7 +14,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MapComponent } from './components/map/map.component';
 import { AboutComponent } from './components/about/about.component';
-import { CarteComponent } from './components/carte/carte.component';
 import { AccueilComponent } from './components/accueil/accueil.component';
 import { RestauComponent } from './components/restau/restau.component';
 import { HitDuMoisComponent } from './components/hit-du-mois/hit-du-mois.component';
@@ -32,7 +31,6 @@ import { MenusComponent } from './components/menus/menus.component';
     HomeComponent,
     MapComponent,
     AboutComponent,
-    CarteComponent,
     AccueilComponent,
     RestauComponent,
     HitDuMoisComponent,
