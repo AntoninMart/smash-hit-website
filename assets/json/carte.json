@@ -2,18 +2,21 @@
     "burgers": [
         {
             "Name": "Burgers Smash",
-            "Image": "menu_img/Burgers/Smash/IMPERIAL-BACON-EGG.png",
-            "Id": "burgers_smash"
+            "Image": "menu_img/Categories/Categorie_Smash_Hit_Burger.png",
+            "Id": "burgers_smash",
+            "Title": "Burgers Smash"
         },
         {
             "Name": "Burgers Hit",
-            "Image": "menu_img/Burgers/Hit/MEXICAN-LOVERS.png",
-            "Id": "burgers_hit"
+            "Image": "menu_img/Categories/Categorie_Smash_Hit_Burger_Hit.png",
+            "Id": "burgers_hit",
+            "Title": "Burgers Hit"
         },
         {
             "Name": "Burgers Divers",
-            "Image": "menu_img/Burgers/Divers/MIAMI_TOAST.png",
-            "Id": "burgers_divers"
+            "Image": "menu_img/Categories/Categories_Smash_Hit_Burger_Hit_Divers.png",
+            "Id": "burgers_divers",
+            "Title": "Burgers Divers"
         }
     ],
     "burgers_poulet":[
@@ -184,27 +187,32 @@
         {
             "Name": "Bières",
             "Image": "menu_img/Boissons/JUPILER.png",
-            "Id": "boissons_biere"
+            "Id": "boissons_biere",
+            "Title": "Bières"
         },
         {
             "Name": "Café / Thé",
             "Image": "menu_img/Boissons/NOISETTE.png",
-            "Id": "boissons_cafe_the"
+            "Id": "boissons_cafe_the",
+            "Title": "Café / Thé"
         },
         {
             "Name": "Vin",
             "Image": "menu_img/Boissons/ROUGE.png",
-            "Id": "boissons_vin"
+            "Id": "boissons_vin",
+            "Title": "Vin"
         },
         {
             "Name": "Eau",
             "Image": "menu_img/Boissons/VITTEL_PLASTIQUE.png",
-            "Id": "boissons_eau"
+            "Id": "boissons_eau",
+            "Title": "Eau"
         },
         {
             "Name": "Soda",
             "Image": "menu_img/Boissons/FINE_COLA_ZERO.png",
-            "Id": "boissons_soda"
+            "Id": "boissons_soda",
+            "Title": "Soda"
         }
     ],
     "boissons_biere": [

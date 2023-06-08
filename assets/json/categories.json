@@ -3,32 +3,38 @@
         {
             "Name" : "Burgers",
             "Image": "menu_img/Burgers/Smash/TRIPLE-CHEESE.png",
-            "Id": "burgers"
+            "Id": "burgers",
+            "Title": "Burgers"
         },
         {
             "Name" : "Frites fraîches",
             "Image": "menu_img/Frites/FRITE-BACON.png",
-            "Id": "frites_fraiches"
+            "Id": "frites_fraiches",
+            "Title": "Frites fraîches"
         },
         {
             "Name" : "Hit dogs",
             "Image": "menu_img/Hit Dog/HIT-DOG-CLASSIC.png",
-            "Id": "hit_dogs"
+            "Id": "hit_dogs",
+            "Title": "Hit dogs"
         },
         {
             "Name" : "Burgers poulet",
             "Image": "menu_img/Burgers poulet/BURGER-POULET.png",
-            "Id": "burgers_poulet"
+            "Id": "burgers_poulet",
+            "Title": "Burgers poulet"
         },
         {
             "Name" : "Milkshakes",
             "Image": "menu_img/Shake It/SHAKE-HIT-NUTELLA.png",
-            "Id": "milkshakes"
+            "Id": "milkshakes",
+            "Title": "Milkshakes"
         },
         {
             "Name" : "Boissons",
             "Image": "/menu_img/Boissons/VITTEL_PLASTIQUE.png",
-            "Id": "boissons"
+            "Id": "boissons",
+            "Title": "Boissons"
         }
     ]
 }
