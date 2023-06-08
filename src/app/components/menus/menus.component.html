@@ -8,15 +8,16 @@
             <h2 class="text-xl font-bold">Retour</h2>
         </div>
     </button>
-    <div class="grid grid-cols-1 xl:grid-cols-3">
+    <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
         <div *ngFor="let product of display_product_tab">
-            <div class="flex flex-col bg-smash-white text-center m-2 rounded-md items-center hover:shadow-lg hover:shadow-smash-red duration-300 overflow-hidden py-4">
-                <h1 class="self-center text-4xl font-bold mb-2">{{product.name}}</h1>
-                <div class="flex flex-row items-center bg-smash-red rounded-full xxs:h-40 xxs:w-40 md:w-64 md:h-64">
-                    <button (click)="display_product(product.id, product.title)">
-                        <img class="scale-125 hover:scale-150 duration-300 xxs:w-40 md:w-80" src="{{ product.image }}" alt="">
-                    </button>
-                </div>
+            <div class="flex flex-col bg-smash-grey text-center m-2 rounded-md items-center hover:shadow-lg hover:shadow-smash-red duration-300 overflow-hidden py-4">
+                <h1 class="text-white self-center text-4xl font-bold mb-4">{{product.name}}</h1>
+                <!-- <div class="flex flex-row items-center bg-smash-red rounded-full xxs:h-40 xxs:w-40 md:w-96 md:h-96"> -->
+                <button (click)="display_product(product.id, product.title)" class="flex items-center justify-center">
+                    <div class="absolute bg-smash-white-moche rounded-full w-60 h-60"></div>
+                    <img class="relative scale-125 hover:scale-150 duration-300 xxs:w-40 md:w-96" src="{{ product.image }}" alt="">
+                </button>
+                <!-- </div> -->
             </div>
         </div>
     </div>
