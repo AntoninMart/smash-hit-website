@@ -39,10 +39,6 @@
             "Image": "menu_img/Burgers/Hit/SOLO-CHEESE.png"
         },
         {
-            "Name" : "Mexican lovers",
-            "Image": "menu_img/Burgers/Hit/MEXICAN-LOVERS.png"
-        },
-        {
             "Name" : "Imperial bacon egg",
             "Image": "menu_img/Burgers/Hit/IMPERIAL-BACON-EGG.png"
         },
@@ -55,22 +51,26 @@
             "Image": "menu_img/Burgers/Hit/COW_BOY_BBQ_BACON.png"
         },
         {
-            "Name" : "Cow boy BBQ bacon",
+            "Name" : "Mexican lovers",
+            "Image": "menu_img/Burgers/Hit/MEXICAN-LOVERS.png"
+        },
+        {
+            "Name" : "Cow boy bacon addicted",
             "Image": "menu_img/Burgers/Hit/BACON-ADDICTED.png"
         }
     ],
     "burgers_smash": [
         {
-            "Name" : "Triple cheese",
-            "Image": "menu_img/Burgers/Smash/TRIPLE-CHEESE.png"
-        },
-        {
             "Name" : "Solo cheese",
             "Image": "menu_img/Burgers/Smash/SOLO-CHEESE.png"
         },
         {
-            "Name" : "Mexican lovers",
-            "Image": "menu_img/Burgers/Smash/MEXICAN-LOVERS.png"
+            "Name" : "Double cheese",
+            "Image": "menu_img/Burgers/Smash/DOUBLE-CHEESE.png"
+        },
+        {
+            "Name" : "Triple cheese",
+            "Image": "menu_img/Burgers/Smash/TRIPLE-CHEESE.png"
         },
         {
             "Name" : "Imperial bacon egg",
@@ -81,16 +81,20 @@
             "Image": "menu_img/Burgers/Smash/FRESH-GUACAMOLE.png"
         },
         {
-            "Name" : "Double cheese",
-            "Image": "menu_img/Burgers/Smash/DOUBLE-CHEESE.png"
-        },
-        {
             "Name" : "Cow boy BBQ bacon",
             "Image": "menu_img/Burgers/Smash/COW-BOY-BBQ-BACON.png"
         },
         {
+            "Name" : "Mexican lovers",
+            "Image": "menu_img/Burgers/Smash/MEXICAN-LOVERS.png"
+        },
+        {
             "Name" : "Bacon addicted",
             "Image": "menu_img/Burgers/Smash/BACON-ADDICTED.png"
+        },
+        {
+            "Name" : "Miami toast",
+            "Image": "menu_img/Burgers/Divers/MIAMI_TOAST.png"
         }
     ],
     "burgers_divers":[
@@ -101,14 +105,6 @@
         {
             "Name" : "Veggie classic",
             "Image": "menu_img/Burgers/Divers/VEGGIE-CLASSIC.png"
-        },
-        {
-            "Name" : "Miami toast",
-            "Image": "menu_img/Burgers/Divers/MIAMI_TOAST.png"
-        },
-        {
-            "Name" : "Burger enfant",
-            "Image": "menu_img/Burgers/Divers/BURGER_ENFANTS.png"
         }
     ],
     "frites_fraiches": [
@@ -131,10 +127,6 @@
     ],
     "milkshakes": [
         {
-            "Name" : "Shake hit ultimate banane",
-            "Image": "menu_img/Shake It/SHAKE-HIT-ULTIMATE-BANANE.png"
-        },
-        {
             "Name" : "Shake hit speculos",
             "Image": "menu_img/Shake It/SHAKE-HIT-SPECULOS.png"
         },
@@ -143,7 +135,7 @@
             "Image": "menu_img/Shake It/SHAKE-HIT-PISTACHE.png"
         },
         {
-            "Name" : "Shake hit pistache",
+            "Name" : "Shake hit oreo",
             "Image": "menu_img/Shake It/SHAKE-HIT-OREO.png"
         },
         {
@@ -157,10 +149,6 @@
         {
             "Name" : "Shake hit hit M&M's",
             "Image": "menu_img/Shake It/SHAKE-HIT-MMS.png"
-        },
-        {
-            "Name" : "Shake hit hit Kit Kat",
-            "Image": "menu_img/Shake It/SHAKE-HIT-KIT-KAT.png"
         },
         {
             "Name" : "Shake hit hit fraise banane",
@@ -355,24 +343,8 @@
     ],
     "hit_dogs":[
         {
-            "Name": "Hit dog enfant",
-            "Image": "menu_img/Hit Dog/HIT-DOG-ENFANT.png"
-        },
-        {
-            "Name": "Hit dog cowboy BBQ",
-            "Image": "menu_img/Hit Dog/HIT-DOG-COW-BOY-BBQ-BACON.png"
-        },
-        {
             "Name": "Hit dog classique",
             "Image": "menu_img/Hit Dog/HIT-DOG-CLASSIC.png"
-        },
-        {
-            "Name": "Hit dog bacon addicted",
-            "Image": "menu_img/Hit Dog/HIT-DOG-BACON-ADDICTED.png"
-        },
-        {
-            "Name": "Hit dog mexican lovers",
-            "Image": "menu_img/Hit Dog/HIT-DOG-MEXICAN-LOVERS.png"
         },
         {
             "Name": "Hit dog imperial bacon egg",
@@ -381,6 +353,28 @@
         {
             "Name": "Hit dog fresh guacamole",
             "Image": "menu_img/Hit Dog/HIT-DOG-FRESH-GUACAMOLE.png"
+        },
+        {
+            "Name": "Hit dog cowboy BBQ",
+            "Image": "menu_img/Hit Dog/HIT-DOG-COW-BOY-BBQ-BACON.png"
+        },
+        {
+            "Name": "Hit dog mexican lovers",
+            "Image": "menu_img/Hit Dog/HIT-DOG-MEXICAN-LOVERS.png"
+        },
+        {
+            "Name": "Hit dog bacon addicted",
+            "Image": "menu_img/Hit Dog/HIT-DOG-BACON-ADDICTED.png"
+        } 
+    ],
+    "menu_enfant":[
+        {
+            "Name": "Hit dog enfant",
+            "Image": "menu_img/Hit Dog/HIT-DOG-ENFANT.png"
+        },
+        {
+            "Name" : "Burger enfant",
+            "Image": "menu_img/Burgers/Divers/BURGER_ENFANTS.png"
         }
     ]
 }
