@@ -12,17 +12,19 @@ export class MenusComponent {
   categories: any = categories;
   display_product_tab: any[] = [];
   categories_actuelle: any[] = [];
+  title_categorie: any[] = [];
 
   constructor() {
     let display_name = 'menus';
-    this.display_product(display_name);
+    this.display_product(display_name, 'Menu');
   }
   
-  display_product(display_name: string) {
-    console.log(display_name);
-    console.log(this.categories_actuelle);
-    if (!this.categories_actuelle.includes(display_name) && display_name !== 'undefined') {
+  display_product(display_name: string, title?: string) {
+    if (!this.categories_actuelle.includes(display_name) && display_name !== undefined) {
       this.categories_actuelle.push(display_name);
+    }
+    if (!this.title_categorie.includes(title) && title !== undefined) {
+      this.title_categorie.push(title);
     }
     if (display_name === 'menus') {
       const products = this.categories['Categories'] || [];
@@ -31,15 +33,14 @@ export class MenusComponent {
         const product_obj = {
           name: product.Name,
           image: `assets/images/${product.Image}`,
-          id: product.Id
+          id: product.Id,
+          title: product.Title
         };
         this.display_product_tab.push(product_obj);
       });
     } else {
       const products = this.product[display_name] || [];
       if (products.length === 0) {
-        console.log(products);
-        console.log('No product found');
         return;
       }
       this.display_product_tab = [];
@@ -47,7 +48,8 @@ export class MenusComponent {
         const product_obj = {
           name: product.Name,
           image: `assets/images/${product.Image}`,
-          id: product.Id
+          id: product.Id,
+          title: product.Title
         };
         this.display_product_tab.push(product_obj);
       });
@@ -59,8 +61,9 @@ export class MenusComponent {
     if (this.categories_actuelle.length > 1) {
       this.categories_actuelle.pop();
     }
-    console.log('LA LISTE :');
-    console.log(this.categories_actuelle);
+    if (this.title_categorie.length > 1) {
+      this.title_categorie.pop();
+    }
   }
 
 }

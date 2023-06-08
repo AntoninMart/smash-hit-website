@@ -22,6 +22,7 @@ import { MentionsLegaleComponent } from './pages/mentions-legale/mentions-legale
 import { InstaComponent } from './components/insta/insta.component';
 import { CarrousselComponent } from './components/carroussel/carroussel.component';
 import { MenusComponent } from './components/menus/menus.component';
+import { OrderComponent } from './components/order/order.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { MenusComponent } from './components/menus/menus.component';
     InstaComponent,
     CarrousselComponent,
     MenusComponent,
+    OrderComponent,
   ],
   imports: [
     BrowserModule,

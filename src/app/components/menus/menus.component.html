@@ -1,5 +1,6 @@
 <section id="carte" class="flex flex-col bg-gradient-to-r from-smash-yellow to-smash-red py-20 px-6">
-    <button class="text-4xl justify-items-start" (click)="get_back()">
+    <h2 class="flex flex-col text-center text-6xl font-bold mb-10 text-white">{{title_categorie[title_categorie.length - 1]}}</h2>
+    <button class="text-4xl justify-items-start w-fit" (click)="get_back()">
         <div class="flex flex-row bg-white items-center rounded-lg w-fit px-4 ml-2 hover:shadow-md hover:shadow-smash-red duration-300">
             <span class="material-symbols-outlined">
                 arrow_back
@@ -12,7 +13,7 @@
             <div class="flex flex-col bg-smash-white text-center m-2 rounded-md items-center hover:shadow-lg hover:shadow-smash-red duration-300 overflow-hidden py-4">
                 <h1 class="self-center text-4xl font-bold mb-2">{{product.name}}</h1>
                 <div class="flex flex-row items-center bg-smash-red rounded-full xxs:h-40 xxs:w-40 md:w-64 md:h-64">
-                    <button (click)="display_product(product.id)">
+                    <button (click)="display_product(product.id, product.title)">
                         <img class="scale-125 hover:scale-150 duration-300 xxs:w-40 md:w-80" src="{{ product.image }}" alt="">
                     </button>
                 </div>
