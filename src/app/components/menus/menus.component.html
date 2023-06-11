@@ -2,7 +2,7 @@
 <!-- <section id="carte" class="flex flex-col py-20 px-6 bg-[url('assets/images/menu_background.jpg')]"> -->
     <h2 class="flex flex-col text-center text-6xl mb-10 text-white">{{title_categorie[title_categorie.length - 1]}}</h2>
     <button class="text-4xl justify-items-start w-fit" (click)="get_back()">
-        <div class="flex flex-row bg-white items-center rounded-lg w-fit px-4 ml-2 hover:shadow-md hover:shadow-smash-red duration-300">
+        <div *ngIf="show" class="flex flex-row bg-white items-center rounded-lg w-fit px-8 py-4 ml-2 hover:shadow-md hover:shadow-smash-red duration-300">
             <span class="material-symbols-outlined">
                 arrow_back
             </span>
@@ -15,7 +15,6 @@
                 <h1 class="text-white self-center text-4xl mb-4">{{product.name}}</h1>
                 <div class="flex flex-row items-center bg-smash-white rounded-full xxs:h-40 xxs:w-40 md:w-60 md:h-60">
                     <button (click)="display_product(product.id, product.title)" class="flex items-center justify-center">
-                        <!-- <div class="absolute bg-smash-white rounded-full xxxs:w-24 xxxs:h-24 md:w-60 md:h-60"></div> -->
                         <img class="scale-125 hover:scale-150 duration-300 xxs:w-40 md:w-96" src="{{ product.image }}" alt="">
                     </button>
                 </div>

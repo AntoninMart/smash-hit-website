@@ -13,6 +13,7 @@ export class MenusComponent {
   display_product_tab: any[] = [];
   categories_actuelle: any[] = [];
   title_categorie: any[] = [];
+  public show: boolean = false;
 
   constructor() {
     let display_name = 'menus';
@@ -25,6 +26,9 @@ export class MenusComponent {
     }
     if (!this.title_categorie.includes(title) && title !== undefined) {
       this.title_categorie.push(title);
+    }
+    if (this.categories_actuelle.length > 1) {
+      this.show = true
     }
     if (display_name === 'menus') {
       const products = this.categories['Categories'] || [];
@@ -63,6 +67,9 @@ export class MenusComponent {
     }
     if (this.title_categorie.length > 1) {
       this.title_categorie.pop();
+    }
+    if (this.categories_actuelle.length === 1) {
+      this.show = false
     }
   }
 
