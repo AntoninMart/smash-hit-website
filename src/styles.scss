@@ -9,8 +9,12 @@
     src: url('assets/font/Candela.otf') format('opentype');
 }
 @font-face {
-    font-family: 'Grotesque';
+    font-family: 'GrotesqueDark';
     src: url('assets/font/brandon-grotesque-black.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Grotesque';
+    src: url('assets/font/brandon-grotesque-light.otf') format('opentype');
 }
 
 * {
@@ -24,6 +28,10 @@
 
 .font-candela {
     font-family: Candela;
+}
+
+.font-grotesquedark {
+    font-family: GrotesqueDark;
 }
 
 .font-grotesque {

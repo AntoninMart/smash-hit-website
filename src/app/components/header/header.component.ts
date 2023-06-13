@@ -1,15 +1,26 @@
-import { Component } from '@angular/core';
+import { Component, HostListener  } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
+
+@HostListener('window:scroll', ['$event'])
+
+
 export class HeaderComponent {
   e: string;
+  isScrolled = false;
+
+  OnScroll(event: any) {
+    this.isScrolled = true;
+  }
+
   constructor() { 
     this.e = "menu";
   }
+
   Menu(): void {
     const list = document.querySelector('ul') as HTMLElement;
     console.log(this.e);

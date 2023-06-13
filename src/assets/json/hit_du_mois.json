@@ -1,0 +1,16 @@
+{
+    "Hit":[
+        {
+            "Name":"The Smash Chèvre",
+            "Image":"assets/images/SMASH-CHEVRE-FRITES.png"
+        },
+        {
+            "Name":"The Chèvre HitDog",
+            "Image":"assets/images/HITDOG-CHEVRE-FRITES.png"
+        },
+        {
+            "Name":"The Shake Hit Pêche",
+            "Image":"assets/images/SHAKE-HIT-PECHE.png"
+        }
+    ]
+}
