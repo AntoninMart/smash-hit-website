@@ -1,23 +1,23 @@
 <section id="carte" class="flex flex-col bg-gradient-to-r from-smash-yellow to-smash-red py-20 px-6">
-<!-- <section id="carte" class="flex flex-col py-20 px-6 bg-[url('assets/images/menu_background.jpg')]"> -->
     <h2 class="flex flex-col text-center text-6xl mb-10 text-white">{{title_categorie[title_categorie.length - 1]}}</h2>
     <button class="text-4xl justify-items-start w-fit" (click)="get_back()">
-        <div *ngIf="show" class="flex flex-row bg-white items-center rounded-lg w-fit px-8 py-4 ml-2 hover:shadow-md hover:shadow-smash-red duration-300">
+        <div *ngIf="show"
+            class="flex flex-row bg-white items-center rounded-lg w-fit px-8 py-4 mb-4 hover:shadow-md hover:shadow-smash-red duration-300">
             <span class="material-symbols-outlined">
                 arrow_back
             </span>
             <h2 class="text-xl font-bold">Retour</h2>
         </div>
     </button>
-    <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
-        <div *ngFor="let product of display_product_tab">
-            <div class="flex flex-col items-center bg-smash-grey text-center m-2 rounded-md hover:shadow-lg hover:shadow-smash-red duration-300 overflow-hidden py-4">
-                <h1 class="text-white self-center text-4xl mb-4">{{product.name}}</h1>
-                <div class="flex flex-row items-center bg-smash-white rounded-full xxs:h-40 xxs:w-40 md:w-60 md:h-60">
-                    <button (click)="display_product(product.id, product.title)" class="flex items-center justify-center">
-                        <img class="scale-125 hover:scale-150 duration-300 xxs:w-40 md:w-96" src="{{ product.image }}" alt="">
-                    </button>
-                </div>
+    <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5">
+        <div *ngFor="let product of display_product_tab"
+            class="flex flex-col h-full items-center bg-smash-grey text-center rounded-md hover:shadow-lg hover:shadow-smash-red duration-300 overflow-hidden py-4">
+            <h1 class="text-white self-center text-4xl mb-4">{{product.name}}</h1>
+            <div class="flex flex-row items-center bg-smash-white rounded-full xxs:h-40 xxs:w-40 md:w-60 md:h-60">
+                <button (click)="display_product(product.id, product.title)" class="flex items-center justify-center">
+                    <img class="scale-125 hover:scale-150 duration-300 xxs:w-40 md:w-96" src="{{ product.image }}"
+                        alt="">
+                </button>
             </div>
         </div>
     </div>
