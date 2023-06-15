@@ -1,4 +1,5 @@
 import { Component, HostListener  } from '@angular/core';
+import { Scroll } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -12,9 +13,11 @@ import { Component, HostListener  } from '@angular/core';
 export class HeaderComponent {
   e: string;
   isScrolled = false;
+  show: boolean = false;
 
-  OnScroll(event: any) {
-    this.isScrolled = true;
+  OnScroll($event: any) {
+    window.scrollY > 0 ? this.isScrolled = true : this.isScrolled = false;
+    console.log(this.isScrolled);
   }
 
   constructor() { 

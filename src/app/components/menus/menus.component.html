@@ -10,9 +10,9 @@
         </div>
     </button>
     <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5">
-        <div *ngFor="let product of display_product_tab" className="supports-[height:100cqh]:h-[100cqh] supports-[height:100svh]:h-[100svh]"
-            class="flex flex-col h-full items-center bg-smash-grey text-center rounded-md hover:shadow-lg hover:shadow-smash-red duration-300 overflow-hidden py-4">
-            <h1 class="text-white self-center text-4xl mb-4">{{product.name}}</h1>
+        <div *ngFor="let product of display_product_tab"
+            class="flex flex-col items-center bg-smash-grey text-center rounded-md hover:shadow-lg hover:shadow-smash-red duration-300 overflow-hidden py-4">
+            <h1 class="text-white self-center text-4xl mb-4 font-grotesque">{{product.name}}</h1>
             <div class="flex flex-row items-center bg-smash-white rounded-full xxs:h-40 xxs:w-40 md:w-60 md:h-60">
                 <button (click)="display_product(product.id, product.title)" class="flex items-center justify-center">
                     <img class="scale-125 hover:scale-150 duration-300 xxs:w-40 md:w-96" src="{{ product.image }}"
