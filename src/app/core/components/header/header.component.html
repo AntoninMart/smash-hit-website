@@ -8,20 +8,20 @@
         <a class="hover:text-smash-red duration-300" routerLink="/carte">Carte</a>
         <a class="hover:text-smash-red duration-300" href="#contact">Contact</a>
     </nav>
-    <button class="xxs:flex lg:hidden" (click)="Menu()">
-        <div id="open" class="">
+    <button class="xxs:flex lg:hidden" (click)="show ? show = false : show = true">
+        <div *ngIf="!show" class="">
             <span class="material-symbols-outlined">
                 menu
             </span>
         </div>
-        <div id="close" class="hidden">
+        <div *ngIf="show" class="">
             <span class="material-symbols-outlined">
                 close
             </span>
         </div>
     </button>
-    <div id="nav_list" class="hidden">
-        <ul class="top-[100px] text-center absolute bg-white w-full left-0 opacity-0 transition-all ease-in duration-300 z-50">
+    <div *ngIf="show">
+        <ul [ngClass]="{'opacity-0':!show, 'opacity-100':show }" class="top-[100px] text-center absolute bg-white w-full left-0 transition-all ease-in duration-300 z-50">
             <li class="mx-4 my-6 md:my-0">
                 <a href="#restau" class="text-xl hover:text-smash-red duration-300 font-bold">Qui sommes-nous ?</a>
             </li>
