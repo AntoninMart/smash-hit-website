@@ -174,31 +174,31 @@
     "boissons": [
         {
             "Name": "Bières",
-            "Image": "menu_img/Boissons/JUPILER.png",
+            "Image": "menu_img/Categories/Categories_bieres.png",
             "Id": "boissons_biere",
             "Title": "Bières"
         },
         {
             "Name": "Café / Thé",
-            "Image": "menu_img/Boissons/NOISETTE.png",
+            "Image": "menu_img/Categories/categories_cafe.png",
             "Id": "boissons_cafe_the",
             "Title": "Café / Thé"
         },
         {
             "Name": "Vin",
-            "Image": "menu_img/Boissons/ROUGE.png",
+            "Image": "menu_img/Categories/categories_vins.png",
             "Id": "boissons_vin",
             "Title": "Vin"
         },
         {
             "Name": "Eau",
-            "Image": "menu_img/Boissons/VITTEL_PLASTIQUE.png",
+            "Image": "menu_img/Categories/categories_eau.png",
             "Id": "boissons_eau",
             "Title": "Eau"
         },
         {
             "Name": "Soda",
-            "Image": "menu_img/Boissons/FINE_COLA_ZERO.png",
+            "Image": "menu_img/Categories/categories_soda.png",
             "Id": "boissons_soda",
             "Title": "Soda"
         }
