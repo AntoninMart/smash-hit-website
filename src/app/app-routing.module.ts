@@ -1,13 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { CommandesComponent } from './pages/commandes/commandes.component';
-import { MentionsLegaleComponent } from './pages/mentions-legale/mentions-legale.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'commandes', component: CommandesComponent },
-  { path: 'mentionsLegale', component: MentionsLegaleComponent },
+  { path: '', loadChildren: () => import('./modules/homepage/homepage.module').then(m => m.HomepageModule) },
+  { path: 'carte', loadChildren: () => import('./modules/carte/carte.module').then(m => m.CarteModule) },
 ];
 
 @NgModule({

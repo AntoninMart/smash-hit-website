@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import * as data from '../../../assets/json/carte.json';
-import * as categories from '../../../assets/json/categories.json';
+import * as data from '../../../../../assets/json/carte.json';
+import * as categories from '../../../../../assets/json/categories.json';
 
 @Component({
   selector: 'app-menus',
