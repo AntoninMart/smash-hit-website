@@ -4,8 +4,9 @@
         <img src="assets/images/logo_burger.png" alt="logo smash it circle" class="xxs:h-14 lg:h-20 xxs:flex md:hidden">
     </div>
     <nav class="font-candela flex flex-row gap-4 text-black text-xl font-bold flex-1 justify-end self-center pr-6 xxs:hidden lg:flex">
+        <a class="hover:text-smash-red duration-300" href="">Home</a>
         <a class="hover:text-smash-red duration-300" href="#restau">Qui sommes-nous ?</a>
-        <a class="hover:text-smash-red duration-300" routerLink="/carte">Carte</a>
+        <a class="hover:text-smash-red duration-300" href="/carte">Carte</a>
         <a class="hover:text-smash-red duration-300" href="#contact">Contact</a>
     </nav>
     <button class="xxs:flex lg:hidden" (click)="show ? show = false : show = true">
@@ -23,10 +24,13 @@
     <div *ngIf="show">
         <ul [ngClass]="{'opacity-0':!show, 'opacity-100':show }" class="top-[100px] text-center absolute bg-white w-full left-0 transition-all ease-in duration-300 z-50">
             <li class="mx-4 my-6 md:my-0">
+                <a href="#" class="text-xl hover:text-smash-red duration-300 font-bold">Home</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
                 <a href="#restau" class="text-xl hover:text-smash-red duration-300 font-bold">Qui sommes-nous ?</a>
             </li>
             <li class="mx-4 my-6 md:my-0">
-                <a routerLink="/carte" class="text-xl hover:text-smash-red duration-300 font-bold">Carte</a>
+                <a href="/carte" class="text-xl hover:text-smash-red duration-300 font-bold">Carte</a>
             </li>
             <li class="mx-4 my-6 md:my-0">
                 <a href="#contact" class="text-xl hover:text-smash-red duration-300 font-bold">Contact</a>
