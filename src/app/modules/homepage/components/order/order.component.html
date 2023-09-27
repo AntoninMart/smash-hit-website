@@ -1,4 +1,4 @@
-<div *ngIf="show" class="fixed xxxs:right-24 xxxs:bottom-24 xs:right-28 xs:bottom-28 bg-smash-red rounded-lg transition-all ease-in duration-300 text-center">
+<!-- <div *ngIf="show" class="fixed xxxs:right-24 xxxs:bottom-24 xs:right-28 xs:bottom-28 bg-smash-red rounded-lg transition-all ease-in duration-300 text-center">
     <h1 class="text-white text-2xl mt-2 font-grotesque">Commandez sur :</h1>
     <div class="flex xxxs:flex-col sm:flex-row p-4 gap-2">
         <button (click)="redirectToDeliveroo()">
@@ -8,9 +8,15 @@
             <img class="xxxs:w-20 md:w-36 rounded-lg hover:shadow-sm hover:shadow-green-500 duration-300" src="assets/images/uber.png" alt="">
         </button>
     </div>
-</div>
+</div> -->
 <div [ngClass]="{'bg-smash-yellow': show}" class="fixed bottom-4 right-4 bg-smash-red p-0 rounded-full hover:skew-y-6 duration-300 z-50">
     <button (click)="show = !show">
         <img class="xxxs:w-24 xs:w-32 sd:w-40" src="assets/images/icon_order.png" alt="">
     </button>
 </div>
+<p-sidebar [(visible)]="show" [fullScreen]="true">
+    <div class="flex flex-col xl:flex-row h-full items-center justify-center gap-4">
+        <img class="cursor-pointer w-56" src="assets/images/deliveroo.png" alt="" (click)="redirectToDeliveroo()">
+        <img class="cursor-pointer w-56" src="assets/images/uber.png" alt="" (click)="redirectToUber()">
+    </div>
+</p-sidebar>

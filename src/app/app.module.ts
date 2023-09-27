@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'primeng/carousel';
 import { TagModule } from 'primeng/tag';
 import { ButtonModule } from 'primeng/button';
+import { SidebarModule } from 'primeng/sidebar';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,6 +21,11 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    // Prime NG
+    SidebarModule,
+    ButtonModule,
+    TagModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

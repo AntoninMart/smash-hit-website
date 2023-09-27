@@ -1,0 +1,8 @@
+:host ::ng-deep {
+    .p-sidebar {
+        background-color: #d73131;
+    }
+    .p-sidebar .p-sidebar-header .p-sidebar-close, .p-sidebar .p-sidebar-header .p-sidebar-icon {
+        color: white;
+    }
+}
