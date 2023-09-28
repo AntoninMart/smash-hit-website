@@ -1,19 +1,19 @@
 <section class="px-10 py-20 bg-smash-grey">
     <h1 class="flex flex-col text-center xxxs:text-4xl sm:text-6xl mb-8 text-white">Retrouvez nous sur :</h1>
     <div class="grid grid-cols-1 place-items-center xl:grid-cols-3">
-        <div class="relative lg:mr-2">
+        <div class="relative lg:mr-2" [ngClass]="{'animate__animated animate__fadeIn animation-delay-1':scroll}">
             <button (click)="redirectToInsta()">
                 <img class="absolute rounded-lg" src="assets/images/photo_insta_2.png" alt="">
                 <img class="bg-smash-red/50 relative opacity-0 hover:opacity-100 duration-300 rounded-lg" src="assets/images/insta_logo.png" alt="">
             </button>
         </div>
-        <div class="relative lg:mr-2">
+        <div class="relative lg:mr-2" [ngClass]="{'animate__animated animate__fadeIn animation-delay-1':scroll}">
             <button (click)="redirectToFb()">
                 <img class="absolute rounded-lg" src="assets/images/photo_insta_1.png" alt="">
                 <img class="bg-blue-500/50 relative opacity-0 hover:opacity-100 duration-300 rounded-lg" src="assets/images/logo_facebook.png" alt="">
             </button>
         </div>
-        <div class="relative lg:mr-2">
+        <div class="relative lg:mr-2" [ngClass]="{'animate__animated animate__fadeIn animation-delay-1':scroll}">
             <button (click)="redirectToInsta()">
                 <img class="absolute rounded-lg" src="assets/images/photo_insta_3.png" alt="">
                 <img class="bg-smash-red/50 relative opacity-0 hover:opacity-100 duration-300 rounded-lg" src="assets/images/insta_logo.png" alt="">

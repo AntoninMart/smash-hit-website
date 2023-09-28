@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-insta',
@@ -11,5 +11,13 @@ export class InstaComponent {
   }
   redirectToFb(){
     window.open('https://www.facebook.com/smashhitreims','_blank')
+  }
+  public scroll:boolean = false;
+
+  @HostListener('window:scroll', ['$event'])
+  onScroll(event: any) {
+    if (window.scrollY > 2500) {
+      this.scroll = true;
+    }
   }
 }

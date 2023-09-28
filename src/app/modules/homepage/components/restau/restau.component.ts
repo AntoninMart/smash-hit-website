@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-restau',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./restau.component.scss']
 })
 export class RestauComponent {
-
+  public scroll:boolean = false;
+  @HostListener('window:scroll', ['$event'])
+  onScroll(event: any) {
+    if (window.scrollY > 100) {
+      this.scroll = true;
+    }
+  }
 }

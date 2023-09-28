@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent {
+  public scroll:boolean = false;
 
+  @HostListener('window:scroll', ['$event'])
+  onScroll(event: any) {
+    if (window.scrollY > 700) {
+      this.scroll = true;
+    }
+  }
 }
